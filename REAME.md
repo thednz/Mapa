@@ -55,7 +55,6 @@ portfolio\
 ├── css\
 │ └── style.css\
  └── responsive.css\
- └── animations.css\
 │\
 ├── js\
 │ ├── main.js\
