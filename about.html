@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Sobre [Seu Nome] - Desenvolvedor Front-End e suas habilidades"
-    />
-    <title>Sobre Mim | [Seu Nome]</title>
+    <title>Sobre | theDNZ</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
+    <!-- Barra de Navegação -->
     <nav class="navbar">
       <div class="container">
-        <a href="index.html" class="logo">theDNZ</a>
-        <button class="menu-toggle" id="mobile-menu" aria-label="Menu mobile">
+        <a href="index.html" class="logo-container"> </a>
+        <button class="menu-toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -32,40 +25,41 @@
       </div>
     </nav>
 
+    <!-- Conteúdo Sobre -->
     <main class="about-page">
       <section class="about-hero">
         <div class="container">
+          <h1>Sobre Mim</h1>
           <div class="about-content">
             <div class="about-text">
-              <h1>Sobre Mim</h1>
               <p>
-                Estou cursando Engenhria De Software na Unicesumar e com isso
-                estou desenvolvendo novas hablidades como programador,sendo uma
-                delas criando este portfólio.
+                Estudante de Engenharia de Software na Unicesumar, com foco em
+                desenvolvimento Front-End e design de interfaces.
               </p>
               <p>
-                Minha jornada na programação começou em 2022 e desde então tenho
-                me dedicado a aprender e aprimorar minhas habilidades.
+                Minha jornada na programação começou em 2022 e desde então venho
+                desenvolvendo projetos pessoais e acadêmicos para
+                desenvolvimento de minhas habilidades.
               </p>
             </div>
             <div class="about-image">
               <img
                 src="images/profile.png"
-                alt="thednz"
-                class="profile-photo"
+                alt="Augusto Henrique"
+                class="profile-image"
               />
             </div>
           </div>
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills-section">
         <div class="container">
-          <h2>Minhas Habilidades</h2>
+          <h2>Habilidades Técnicas</h2>
           <div class="skills-grid">
             <div class="skill-card">
               <h3>Front-End</h3>
-              <ul>
+              <ul class="skills-list">
                 <li>HTML5 & CSS3</li>
                 <li>JavaScript (ES6+)</li>
                 <li>React.js</li>
@@ -74,50 +68,14 @@
             </div>
             <div class="skill-card">
               <h3>Ferramentas</h3>
-              <ul>
+              <ul class="skills-list">
                 <li>Git & GitHub</li>
                 <li>VS Code</li>
                 <li>Figma</li>
                 <li>Terminal</li>
               </ul>
             </div>
-            <div class="skill-card">
-              <h3>Soft Skills</h3>
-              <ul>
-                <li>Trabalho em equipe</li>
-                <li>Comunicação clara</li>
-                <li>Resolução de problemas</li>
-                <li>Aprendizado contínuo</li>
-              </ul>
-            </div>
           </div>
-        </div>
-      </section>
-
-      <section class="timeline">
-        <div class="container">
-          <h2>Minha Jornada</h2>
-          <div class="timeline-item">
-            <div class="timeline-date">2023 - Atual</div>
-            <div class="timeline-content">
-              <h3>Estudante de Desenvolvedor Front-End Freelancer</h3>
-              <p>
-                Desenvolvimento de interfaces web para diversos clientes,
-                focando em experiência do usuário e performance.
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-date">2021 - 2023</div>
-            <div class="timeline-content">
-              <h3>Estudante de Desenvolvimento Web</h3>
-              <p>
-                Dedicação intensiva ao aprendizado de tecnologias front-end
-                através de cursos e projetos pessoais.
-              </p>
-            </div>
-          </div>
-          <!-- Adicionar mais itens conforme necessário -->
         </div>
       </section>
     </main>
@@ -125,19 +83,9 @@
     <footer class="footer">
       <div class="container">
         <p>
-          &copy; <span id="year"></span> [Seu Nome]. Todos os direitos
+          &copy; <span id="year"></span> Augusto Henrique. Todos os direitos
           reservados.
         </p>
-        <div class="social-links">
-          <a
-            href="https://github.com/thednz"
-            target="_blank"
-            aria-label="GitHub"
-            >GitHub</a
-          >
-          <a href="#" target="_blank" aria-label="LinkedIn">LinkedIn</a>
-          <a href="#" target="_blank" aria-label="Twitter">Twitter</a>
-        </div>
       </div>
     </footer>
 

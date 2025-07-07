@@ -54,9 +54,13 @@ portfolio\
 │\
 ├── css\
 │ └── style.css\
+ └── responsive.css\
+ └── animations.css\
 │\
 ├── js\
 │ ├── main.js\
+ ├── animations.js\
+ ├── form-validation.js\
 │ └── projects.js\
 │\
 ├── images

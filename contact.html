@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Entre em contato com [Seu Nome] - Desenvolvedor Front-End"
-    />
-    <title>Contato | [Seu Nome]</title>
+    <title>Contato | theDNZ</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
+    <!-- Barra de Navegação -->
     <nav class="navbar">
       <div class="container">
-        <a href="index.html" class="logo">theDNZ</a>
-        <button class="menu-toggle" id="mobile-menu" aria-label="Menu mobile">
+        <a href="index.html" class="logo-container"> </a>
+        <button class="menu-toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -32,29 +25,18 @@
       </div>
     </nav>
 
+    <!-- Formulário de Contato -->
     <main class="contact-page">
       <div class="container">
+        <h1>Entre em Contato</h1>
         <div class="contact-container">
           <div class="contact-info">
-            <h1>Vamos Conversar</h1>
-            <p>
-              Estou interessado em oportunidades freelance, projetos
-              desafiadores e colaborações. Se você tem uma pergunta ou proposta,
-              não hesite em me contatar.
-            </p>
-
+            <h2>Informações</h2>
+            <p>Disponível para oportunidades e colaborações.</p>
             <div class="contact-methods">
               <div class="contact-method">
-                <h3>E-mail</h3>
-                <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
-              </div>
-              <div class="contact-method">
-                <h3>Redes Sociais</h3>
-                <div class="social-links">
-                  <a href="https://github.com/thednz" target="_blank">GitHub</a>
-                  <a href="#" target="_blank">LinkedIn</a>
-                  <a href="#" target="_blank">Twitter</a>
-                </div>
+                <h3>Email</h3>
+                <a href="emailpara:contato@thednz.com">contato@thednz.com</a>
               </div>
             </div>
           </div>
@@ -65,23 +47,14 @@
               <input type="text" id="name" name="name" required />
             </div>
             <div class="form-group">
-              <label for="email">E-mail</label>
+              <label for="email">Email</label>
               <input type="email" id="email" name="email" required />
             </div>
             <div class="form-group">
-              <label for="subject">Assunto</label>
-              <input type="text" id="subject" name="subject" required />
-            </div>
-            <div class="form-group">
               <label for="message">Mensagem</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                required
-              ></textarea>
+              <textarea id="message" name="message" required></textarea>
             </div>
-            <button type="submit" class="btn">Enviar Mensagem</button>
+            <button type="submit" class="btn submit-btn">Enviar</button>
           </form>
         </div>
       </div>
@@ -90,19 +63,9 @@
     <footer class="footer">
       <div class="container">
         <p>
-          &copy; <span id="year"></span> [Seu Nome]. Todos os direitos
+          &copy; <span id="year"></span> Augusto Henrique. Todos os direitos
           reservados.
         </p>
-        <div class="social-links">
-          <a
-            href="https://github.com/thednz"
-            target="_blank"
-            aria-label="GitHub"
-            >GitHub</a
-          >
-          <a href="#" target="_blank" aria-label="LinkedIn">LinkedIn</a>
-          <a href="#" target="_blank" aria-label="Twitter">Twitter</a>
-        </div>
       </div>
     </footer>
 
