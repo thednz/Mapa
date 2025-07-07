@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de [Seu Nome], desenvolvedor front-end. Confira meus projetos e habilidades."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, desenvolvedor, frontend, JavaScript, HTML, CSS, thednz"
+    />
+    <meta name="author" content="[Seu Nome]" />
+    <title>THEDNZ | Estudante de Front-End</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html"></a>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Menu mobile">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="projects.html">Projetos</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="container">
+        <h1 class="hero-title">
+          Olá, me chamo<span class="highlight"> Augusto Henrique </span>
+        </h1>
+        <p class="hero-subtitle">
+          Estou cursando Engenhria De Software na Unicesumar e com isso estou
+          desenvolvendo novas hablidades como programador,sendo uma delas
+          criando este portfólio.
+        </p>
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn">Ver Projetos</a>
+          <a href="#contact" class="btn btn-outline">Contato</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="featured-projects" id="projects">
+      <div class="container">
+        <h2>Projetos em Destaque</h2>
+        <div class="projects-grid">
+          <!-- Projetos serão carregados via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>Sobre Mim</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Desenvolvedor Front-End com experiência em criar interfaces
+              modernas e responsivas. Apaixonado por UX/UI e performance web.
+            </p>
+            <p>Tecnologias que trabalho:</p>
+            <ul class="skills-list">
+              <li>HTML5 & CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React.js</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img
+              src="images/profile.png"
+              alt="Augusto Henrique"
+              class="profile-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> [Seu Nome]. Todos os direitos
+          reservados.
+        </p>
+        <div class="social-links">
+          <a
+            href="https://github.com/thednz"
+            target="_blank"
+            aria-label="GitHub"
+            >GitHub</a
+          >
+          <a href="#" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" target="_blank" aria-label="Twitter">Twitter</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meus Projetos | thednz</title>
+    <meta
+      name="description"
+      content="Projetos desenvolvidos por Augusto Henrique (theDNZ)"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo-container">
+          <span class="logo-highlight">the</span>
+          <span class="logo-main">DNZ</span>
+        </a>
+
+        <button class="menu-toggle" id="mobile-menu" aria-label="Menu mobile">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" class="active">Projetos</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Projetos -->
+    <section class="projects">
+      <div class="container">
+        <h1>Meus Projetos</h1>
+
+        <div class="filters">
+          <button class="btn filter-btn active" data-filter="all">Todos</button>
+          <button class="btn filter-btn" data-filter="web">Web</button>
+          <button class="btn filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Projetos serão carregados via JavaScript -->
+          <div class="card project-skeleton">
+            <div class="skeleton-image"></div>
+            <div class="skeleton-text"></div>
+            <div class="skeleton-text-sm"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Augusto Henrique. Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
